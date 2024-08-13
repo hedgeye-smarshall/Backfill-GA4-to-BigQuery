@@ -1,11 +1,11 @@
 {
-"CLIENT_SECRET_FILE": "<Path to your client secret file>",
-"SERVICE_ACCOUNT_FILE": "<Path to your service account JSON file>",
+"CLIENT_SECRET_FILE": "./creds/client_secret.json",
+"SERVICE_ACCOUNT_FILE": "./creds/service_account.json",
 "SCOPES": ["https://www.googleapis.com/auth/analytics.readonly"],
-"PROPERTY_ID": "<Google Analytics Property ID>",
-"INITIAL_FETCH_FROM_DATE": "2022-01-01",
+"PROPERTY_ID": "291934184",
+"INITIAL_FETCH_FROM_DATE": "2022-03-01",
 "FETCH_TO_DATE": "today",
-"DATASET_ID": "<BigQuery Dataset ID>",
+"DATASET_ID": "ops-archives-backups.google_ads_backfill",
 "TABLE_PREFIX": "_backfill_GA4",
 "PARTITION_BY": "Event_Date",
 "CLUSTER_BY": "Event_Name"
