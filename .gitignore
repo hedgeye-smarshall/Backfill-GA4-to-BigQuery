@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 ops-archives-backups*.json
+client_secret*.json
