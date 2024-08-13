@@ -5,7 +5,7 @@
 "PROPERTY_ID": "291934184",
 "INITIAL_FETCH_FROM_DATE": "2022-03-01",
 "FETCH_TO_DATE": "today",
-"DATASET_ID": "ops-archives-backups.google_ads_backfill",
+"DATASET_ID": "ops-archives-backups.hedgeye_production_ga4_backfill",
 "TABLE_PREFIX": "_backfill_GA4",
 "PARTITION_BY": "Event_Date",
 "CLUSTER_BY": "Event_Name"
